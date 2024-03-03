@@ -6,7 +6,7 @@ const Notification = () => {
     padding: 10,
     borderWidth: 1
   }
-  if (notification === null) {
+  if (!notification) {
     return(
       <div></div>
     )
